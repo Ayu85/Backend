@@ -10,7 +10,7 @@ app.get('/', (request, response) => {
 
 })
 app.post('/', (request, response) => {
-    const { name, course } = request.body
-    console.log(name, course);
+    const { name, course,Rank } = request.body
+    console.log(name, course,Rank);
     response.send("data submitted successfully")
 })
