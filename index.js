@@ -17,6 +17,7 @@ app.post('/', (request, response) => {
 })
 //importing mongoose and connecting db
 const mongoose = require('mongoose')
+//connection code
 mongoose.connect('mongodb://localhost:27017/AayushFirstBackendDB', {
     useNewUrlParser: true,
     useUnifiedTopology: true
